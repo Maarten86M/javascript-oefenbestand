@@ -1,15 +1,13 @@
 const browser = "Edge";
 
-switch (browser){
+switch (browser) {
+
     case "Chrome":
-        console.log("dit is de juiste browser");
-        break;
+    case "Edge":
     case "Safari":
-        console.log("niet de juiste browser");
-        break;
-    case "edge":
-        console.log("moet je niet gebruiken");
+    case "Firefox":
+        console.log("Je ziet de website!");
         break;
     default:
-        console.log("maar wat heb je dan");
+        console.log("Hoe bekijk je dan de website?");
 }
