@@ -2,22 +2,22 @@
 
 const hallo = "hallo";
 const hoi = "hoi";
-const vergelijking = hallo == hoi;
-// console.log(vergelijking);
+const vergelijking = hallo === hoi;
+console.log(vergelijking);
 
 const one = 1;
 const two = 2;
 const three = one === two; // false
-// console.log(three);
+console.log(three);
 
 const een = 1;
 const twee = 2;
 const drie = twee > een;
-// console.log(drie); //true
+console.log(drie); //true
 
 const grade = 5.6;
 const isPassed = grade >= 5.5;
-// console.log("student is passed:" + isPassed); // true
+console.log("student is passed:" + isPassed); // true
 
 
 // alcohol check :D
