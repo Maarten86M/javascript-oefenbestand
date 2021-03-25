@@ -1,15 +1,15 @@
-const fruit = "Bananen";
+const browser = "Edge";
 
-switch (fruit) {
-    case 'Bananen':
-        console.log('Het zijn bananen!');
+switch (browser){
+    case "Chrome":
+        console.log("dit is de juiste browser");
         break;
-    case 'Appels':
-        console.log('Het zijn appels!');
+    case "Safari":
+        console.log("niet de juiste browser");
         break;
-    case 'Citroenen':
-        console.log('Het zijn citroenen!');
+    case "edge":
+        console.log("moet je niet gebruiken");
         break;
     default:
-        console.log('Er is geen vrucht gekozen');
+        console.log("maar wat heb je dan");
 }
