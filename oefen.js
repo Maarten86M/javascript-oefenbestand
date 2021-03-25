@@ -1,13 +1,17 @@
-const browser = "Edge";
+// Reken Modules
 
-switch (browser) {
+const total = 2 + 4 * 10  //42
+console.log(total);
 
-    case "Chrome":
-    case "Edge":
-    case "Safari":
-    case "Firefox":
-        console.log("Je ziet de website!");
-        break;
-    default:
-        console.log("Hoe bekijk je dan de website?");
-}
+const total2 = 10 * (4 + 2) //60 want vermenigvuldigen komt voor optellen.
+console.log(total2);
+
+var x = 5;
+var y = 7;
+var z = x + y;
+console.log(z); //uitkomst is 12
+
+var een = 10;
+var twee = een % 3;
+console.log(twee); //uitkomst is 1
+
