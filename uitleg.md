@@ -11,8 +11,6 @@
     - console.log variabelen
     - console.log onbkende dingen
 
-
-
 ##Data types:
 ####Primitives:
     
