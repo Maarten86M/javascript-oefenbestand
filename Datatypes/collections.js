@@ -1,0 +1,6 @@
+// voorbeeld Array
+
+
+
+
+// Voorbeeld Object
