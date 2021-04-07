@@ -1,8 +1,9 @@
-#lessen Javascript. 
+# lessen Javascript. 
 
-###wat hebben we geleerd de afgelopen lessen. 
+### wat hebben we geleerd de afgelopen lessen. 
 
 ##Check Yourself before you wreck yourself.
+
     - 1 regel tegelijk schrijven
     - consistentie is belangrijker dan snelheid
     - doe voorspellingen
@@ -12,7 +13,9 @@
     - console.log onbkende dingen
 
 ##Data types:
+
 ####Primitives:
+
     
         Boolean
             - true
