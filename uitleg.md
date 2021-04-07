@@ -2,7 +2,7 @@
 
 ### wat hebben we geleerd de afgelopen lessen. 
 
-##Check Yourself before you wreck yourself.
+## Check Yourself before you wreck yourself.
 
     - 1 regel tegelijk schrijven
     - consistentie is belangrijker dan snelheid
@@ -12,9 +12,9 @@
     - console.log variabelen
     - console.log onbkende dingen
 
-##Data types:
+## Data types:
 
-####Primitives:
+#### Primitives:
 
     
         Boolean
@@ -29,9 +29,9 @@
         Null
             - dit is bewust niks.
 
-####Collections:
+#### Collections:
 
-####Arrays:
+#### Arrays:
     - waarden (values)
     - volgorde -> 1ste, 2de, 3de element 
     - index (nummer)
@@ -40,7 +40,7 @@
 
     extra: je kunt hem blijven aanvullen. Je gebruikt het vaak als de volgorge uitmaakt
 
-####Objects:
+#### Objects:
     - const user = {id:1, job: "teacher", age: 32};
     - keys: id, job, age
     - waarden (values) 1 , teacher , 32
@@ -57,15 +57,15 @@
     Array heeft indexes en values. De volgorde maakt hierbij niet uit. 
 
 
-##Operators:
-####Arithemetic operators:
+## Operators:
+#### Arithemetic operators:
     +
     -
     /
     *
     %
     
-####Comperison operators:
+#### Comperison operators:
     ===     vergelijk twee waardes op waarde en type
     !==     vergelijkt twee waardes op ongelijkheid in waarde en type
     >       kijkt of het linker getal groter is dan het rechter getal
