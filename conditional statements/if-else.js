@@ -27,3 +27,15 @@ if (grade >= 5.5) {
 }else {
     console.log("je bent gezakt")
 };
+
+// wat ook kan is IF IF
+const cijfer = 6;
+if (cijfer <5.5){
+    console.log("je bent GEZAKT");
+}
+if (cijfer >= 5.5 && cijfer < 8){
+    console.log("matige score");
+}
+if (cijfer >= 8){
+    console.log("je bent dik geslaag");
+}

@@ -71,10 +71,10 @@
     <=      kijkt of het linkr getal kleiner of gelijk is dan het rechter getalk.
     
 #### Assigment Operators:
-    =
+    =  gebruik je bij var x = 4;
 
 #### concatenation:
-    +
+    +  gebruik je bijvoorbeld bij het loggen console.log (testOne + testTwo);
 
 #### Logical operators:
     && en
