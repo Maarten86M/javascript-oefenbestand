@@ -1,3 +1,8 @@
+for (let i = 0; i <10; i++)
+    // let 1 = 0;  maak een variable die zich gedraagt als een counter en zet hem op 0.
+    // i < 10; de lus blijft zich herhalen tot de counter niet meer aan de conditie voldoet.
+    // i++ elke keer als de loop wordt uitgevoerd wordt de counter verhoogd
+
 // simpele for-loop
 
 for (index = 0; index < 9; index ++){

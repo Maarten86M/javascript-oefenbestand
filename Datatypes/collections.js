@@ -10,7 +10,7 @@ console.log(arraylast); // geeft 5
 console.log(Array[arraylast]); // geeft maarten
 
 // Array iets aanpassen.
-nameAanpassen = Array[2] = "Kevin";
+Array[2] = "Kevin";
 console.log(Array);
 
 
