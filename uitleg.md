@@ -63,12 +63,12 @@
     %
     
 ####Comperison operators:
-    ===
-    !==
-    >
-    <
-    >=
-    <=
+    ===     vergelijk twee waardes op waarde en type
+    !==     vergelijkt twee waardes op ongelijkheid in waarde en type
+    >       kijkt of het linker getal groter is dan het rechter getal
+    <       kijkt of het linker getal kleiner is dan het rechter getal
+    >=      kijkt of het linker getal groter of gelijk is dan het rechter getal
+    <=      kijkt of het linkr getal kleiner of gelijk is dan het rechter getalk.
     
 #### Assigment Operators:
     =
