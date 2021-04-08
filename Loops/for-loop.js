@@ -68,3 +68,15 @@ for (let volume = 0; volume < squares.length; volume++){
 for (let testCase of squares){ // zelfde uitkomst.
     console.log(testCase * testCase * testCase)
 }
+
+
+// oefeningen 08-04-2021.
+const money = [12342, 222, 3453, 3232, 22334, 2345];
+console.log(money);
+// gebruik een for-loop om een dolar teken toe te voegen.
+for (let i = 0; i < money.length; i++){
+    money[i] = "$" + money[i]; // nu past hij het dolarteken aan voor de cijfers.
+
+}
+console.log(money);
+
