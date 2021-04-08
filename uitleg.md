@@ -37,6 +37,10 @@
     - index (nummer)
     - 1ste element is array [0]
     - .length (deze array 3)
+    - .push = iets toevoegen aan het eind van je array.
+    - .pop = verwijderd de laatste waarde. 
+    - .shift = verwijderd de eerste waarde.
+    - .splice(1, 1). Hiermee kan je ook waarde verwijeren. Zolang je ze geen nieuwe waarde geeft. 
 
     extra: je kunt hem blijven aanvullen. Je gebruikt het vaak als de volgorge uitmaakt
 
@@ -48,6 +52,7 @@
     - functies (methode)
     - naam geven aan de waarden
     - {id:1 , job: "teacher", age:32};
+    - toevoegen van keys & value. user.city = "Tilburg".  
 
     extra: verzameling van data. Je ziet overzichtelijk wat het is.
 
@@ -65,6 +70,19 @@
     *
     %
     
+Ook kan je een string koppelen op de volgende twee manieren
+```javascript
+const name = "world";
+
+const newName = "hello " + name;
+console.log(newName);
+
+const newNameTwo =`hello ${name}`;
+console.log(newNameTwo);
+```
+
+
+
 #### Comperison operators:
     ===     vergelijk twee waardes op waarde en type
     !==     vergelijkt twee waardes op ongelijkheid in waarde en type
@@ -80,8 +98,8 @@
     +  gebruik je bijvoorbeld bij het loggen console.log (testOne + testTwo);
 
 #### Logical operators:
-    && en
-    || of
+    && en = conditie link en recht moeten waar zijn
+    || of = checkt of link of rechts waar is. 
     ! niet
 
 ##Variables (data opslaan)

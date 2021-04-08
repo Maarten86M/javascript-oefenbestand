@@ -17,3 +17,11 @@ console.log(totalFour);
 // %
 const totalSix = 87 % 2; //1, wat blijft er over
 console.log(totalSix);
+
+// je kan ook een string aan eljkaar koppelen. Op de volgende twee manieren: //
+const name = "world";
+const newName = "hello " + name;
+console.log(newName);
+
+const newNameTwo = `hello ${name}`;
+console.log(newNameTwo);
