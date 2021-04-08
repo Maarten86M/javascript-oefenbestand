@@ -117,6 +117,18 @@ console.log(newNameTwo);
     Switch /case
 
 ## Loops
+#### for loop
+```javascript
+const student = ["henk", "piet" ,"jan"];
+
+for (let i = 0; i < student.length; i++){
+    console.log(i)
+}
+```
+    - .length = lengte van de loop gebruiken. 
+    - 
+
+## loops
     For
     While
     for(…of…)
