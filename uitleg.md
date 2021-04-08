@@ -54,6 +54,12 @@
     - {id:1 , job: "teacher", age:32};
     - toevoegen van keys & value. user.city = "Tilburg".  
 
+    Oook dit werkt bij een object.
+    - .push = iets toevoegen aan het eind van je array.
+    - .pop = verwijderd de laatste waarde.
+    - .shift = verwijderd de eerste waarde.
+    - .splice(1, 1). Hiermee kan je ook waarde verwijeren. Zolang je ze geen nieuwe waarde geeft.
+
     extra: verzameling van data. Je ziet overzichtelijk wat het is.
 
 ####
@@ -138,8 +144,3 @@ for (let i = 0; i < student.length; i++){
     node myprogram.js   = 1malig runnen 
     nodemon myprogram.js = blijft checken naar de aanpassingen.
 
-
-
-```javascript
-for 
-```
