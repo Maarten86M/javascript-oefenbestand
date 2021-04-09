@@ -1,6 +1,6 @@
 # lessen Javascript. 
 
-### wat hebben we geleerd de afgelopen lessen. 
+### Wat hebben we geleerd de afgelopen lessen. 
 
 ## Check Yourself before you wreck yourself.
 
@@ -101,11 +101,11 @@ console.log(newNameTwo);
     =  gebruik je bij var x = 4;
 
 #### concatenation:
-    +  gebruik je bijvoorbeld bij het loggen console.log (testOne + testTwo);
+    +  gebruik je bijvoorbeeld bij het loggen console.log (testOne + testTwo);
 
 #### Logical operators:
-    && en = conditie link en recht moeten waar zijn
-    || of = checkt of link of rechts waar is. 
+    && en = conditie links en rechts moeten waar zijn
+    || of = checkt of links of rechtss waar is. 
     ! niet
 
 ##Variables (data opslaan)
@@ -154,13 +154,27 @@ function congratulate() {
 }
 ```
 ### Methode (overkoelend)
-Dit is een methode, want hij is een property op het birthdat object.
+Dit is een methode, want hij is een property op het birthday object.
 ```javascript
 const birthday = {
   congratulate: function () {
       console.log("Gefeliciteerd!");
   },
 };
+```
+Voorbeeldfunctie
+```javascript
+function area(width, length) {
+    return width * length;
+}
+
+const room1 = area(4, 6);
+const kitchen = area(12, 3);
+const bathroom = area(22, 3);
+const swimmingPool = area(9, 4);
+
+const houseDescription = "De huiskamer is " + room1 + " m2 , de keuken is " + kitchen + "m2, de Badkamer " + bathroom + "m2, en het zwembad " + swimmingPool + "m2 groot!";
+console.log(houseDescription);
 ```
 ### ingebouwde JavaScript Objecten
     JavaScript bevat namelijk een groot aantal ingebouwde functies die veel voorkomende acties (zoals het toevoegen van een extra entry aan een array, of het verwijderen van onnodige spaties uit een string) vergemakkelijken. 
