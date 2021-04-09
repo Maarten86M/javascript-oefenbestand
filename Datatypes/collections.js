@@ -81,3 +81,28 @@ student.kids.shift(); // nu haalt hij bij de kinder Jan weg.
 console.log(student.len)
 
 
+
+
+// Array of objects & for loop & if else statements.
+const bankAccount = [
+    { name: "account1", saldo: 3453, pin: "2234" },
+    { name: "account2", saldo: 234445, pin: "3344" },
+    { name: "account3", saldo: 34455, pin: "0000" }
+    ]
+// console.log(bankAccount[0]);
+
+const inputPin = "2234"
+const inputAccount = "account1"
+
+for (let i = 0; i < bankAccount.length; i++){
+    if ((inputAccount === bankAccount[i].name) && (inputPin === bankAccount[i].pin)){
+        console.log("uw saldo is $ " + bankAccount[i].saldo);
+    }
+    else if (!(inputAccount === bankAccount[i].name) === (inputPin === bankAccount[i].pin)){
+        console.log("probeer het nogmaals")
+    }
+}
+
+
+
+
