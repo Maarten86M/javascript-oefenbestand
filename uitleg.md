@@ -1,4 +1,4 @@
-# lessen Javascript. 
+# Novi Hogeschool (lessen Javascript) 
 
 ### Wat hebben we geleerd de afgelopen lessen. 
 
@@ -10,7 +10,7 @@
     - vaak testen
     - script runnen
     - console.log variabelen
-    - console.log onbkende dingen
+    - console.log onbekende dingen
 
 ## Data types:
 
@@ -36,11 +36,14 @@
     - volgorde -> 1ste, 2de, 3de element 
     - index (nummer)
     - 1ste element is array [0]
+
+
     - .length (deze array 3)
     - .push = iets toevoegen aan het eind van je array.
     - .pop = verwijderd de laatste waarde. 
     - .shift = verwijderd de eerste waarde.
     - .splice(1, 1). Hiermee kan je ook waarde verwijeren. Zolang je ze geen nieuwe waarde geeft. 
+      Zie Hoofdstuk [### Array object]
 
     extra: je kunt hem blijven aanvullen. Je gebruikt het vaak als de volgorge uitmaakt
 
