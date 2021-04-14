@@ -71,6 +71,8 @@
     Array heeft indexes en values. De volgorde maakt hierbij niet uit. 
 
 
+
+
 ## Operators:
 #### Arithemetic operators:
     +
@@ -98,7 +100,7 @@ console.log(newNameTwo);
     >       kijkt of het linker getal groter is dan het rechter getal
     <       kijkt of het linker getal kleiner is dan het rechter getal
     >=      kijkt of het linker getal groter of gelijk is dan het rechter getal
-    <=      kijkt of het linkr getal kleiner of gelijk is dan het rechter getalk.
+    <=      kijkt of het linker getal kleiner of gelijk is dan het rechter getal.
     
 #### Assigment Operators:
     =  gebruik je bij var x = 4;
@@ -112,12 +114,10 @@ console.log(newNameTwo);
     ! niet
 
 ##Variables (data opslaan)
-    Const
-    Let
-    Var
+    Const   = als een waarde maar 1 keer gebruikt hoeft te worden. 
+    Let     = als een waarde nog veranderd dient te worden. 
+    Var     = gebruiken we eigenlijk niet meer. Oud variabel. 
 
-## Ingebouwde commando's
-    console.log
 
 ## Conditonal statements
     If
@@ -179,8 +179,22 @@ const swimmingPool = area(9, 4);
 const houseDescription = "De huiskamer is " + room1 + " m2 , de keuken is " + kitchen + "m2, de Badkamer " + bathroom + "m2, en het zwembad " + swimmingPool + "m2 groot!";
 console.log(houseDescription);
 ```
-### ingebouwde JavaScript Objecten
+
+### Arrow  function (anonieme functie). 
+zoals je onderstaand ziet is de arrowfunction heel kort. In het begin vooral de functie op de normale manier schrijven.
+
+```javascript
+const anoniemeFunction = (width, length) => width * length;
+const room 1 = anoniemeFunction(2,5);
+console.log(room1); // uitkomst = 10
+```
+
+## ingebouwde JavaScript Objecten
     JavaScript bevat namelijk een groot aantal ingebouwde functies die veel voorkomende acties (zoals het toevoegen van een extra entry aan een array, of het verwijderen van onnodige spaties uit een string) vergemakkelijken. 
+
+### Console
+    console.log
+
 
 ### String object
     - .toUpperCase()    = verandert alles letters in Hoofdletters
@@ -233,11 +247,14 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     De meest gangbare worden hier uitgelegd: 
     - .concrat()         = voegt twee arrays samen. 
     - .includes()        = checkt of een van de items in de array een bepaalde waarde bevat, zoals bijv lasagne of 45.
-    - .indexOf()         = checkt het indexnummer van het item in de arrat met een bepaalde waarde
-    - .join()           = Maakt een string van alle items in de array door ze achter elkaar te plakken. wanneer je ze een argument geeft wordt deze erin geplakt " " of "-".
+    - .indexOf()         = checkt het indexnummer van het item in de array met een bepaalde waarde
+    - .join()           = Maakt een string van alle items in de array door ze achter elkaar te plakken. Wanneer je ze een argument geeft wordt deze erin geplakt " " of "-".
     - .push()           = Pusht een nieuwe item, ofwel: voegt een item toe aan het einde van een array.
     - .reverse()        = draait de volgorde van de array om. 
     - .pop()            = verwijderd laatste item in een array
     - .shift()          = verwijdert eerste item in de array.
-    - .slice()          = maakt een referencieloze kopie van een deel van de arrat. Dit betekend dat de originele array niet wordt aangepast. dit kan handig zijn om soms niet de originele array wil aanpassen.
+    - .slice()          = maakt een referencieloze kopie van een deel van de array. Dit betekend dat de originele array niet wordt aangepast. Dit kan handig zijn om soms niet de originele array wil aanpassen.
     -. splice()         = voegt toe, vervangt of verwijderd. (1) indexnummer (2)hoeveel items, (3) wat er toegevoegd dient te worden.
+
+## Scope
+    ddd
