@@ -150,21 +150,25 @@ for (let i = 0; i < student.length; i++){
 ## Functions & Methode
 
 ### Functions
+
+    - Why? Herbruikbaar, leesbaar, makkelijk aan te passen.
+    - returning values : return a + b of return "hi"
+    - aanroepen, functionName()
+    - argumenten functionName("hi")
+    - syntax (definitie)
+        - keyword; function
+        - name : functionName
+        - parameter list : ( )
+        - block { }
+        - return
+
 Onderstaand voorbeeld is een functions
 ```javascript
 function congratulate() {
   console.log("Gefeliciteerd!");
 }
 ```
-### Methode (overkoelend)
-Dit is een methode, want hij is een property op het birthday object.
-```javascript
-const birthday = {
-  congratulate: function () {
-      console.log("Gefeliciteerd!");
-  },
-};
-```
+
 Voorbeeldfunctie
 ```javascript
 function area(width, length) {
@@ -180,7 +184,7 @@ const houseDescription = "De huiskamer is " + room1 + " m2 , de keuken is " + ki
 console.log(houseDescription);
 ```
 
-### Arrow  function (anonieme functie). 
+### Arrow  function (anonieme functie).
 zoals je onderstaand ziet is de arrowfunction heel kort. In het begin vooral de functie op de normale manier schrijven.
 
 ```javascript
@@ -188,6 +192,20 @@ const anoniemeFunction = (width, length) => width * length;
 const room 1 = anoniemeFunction(2,5);
 console.log(room1); // uitkomst = 10
 ```
+
+
+### Methode (overkoepelend)
+Dit is een methode, want hij is een property op het birthday object.
+```javascript
+const birthday = {
+  congratulate: function () {
+      console.log("Gefeliciteerd!");
+  },
+};
+```
+
+
+
 
 ## ingebouwde JavaScript Objecten
     JavaScript bevat namelijk een groot aantal ingebouwde functies die veel voorkomende acties (zoals het toevoegen van een extra entry aan een array, of het verwijderen van onnodige spaties uit een string) vergemakkelijken. 
@@ -257,4 +275,8 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     -. splice()         = voegt toe, vervangt of verwijderd. (1) indexnummer (2)hoeveel items, (3) wat er toegevoegd dient te worden.
 
 ## Scope
-    ddd
+    - isolate parts of your program, be able to reuse names. 
+    - local Scope
+    - Global Scope 
+    - dont use Var (nog respect voor if for loop scope)
+    - reference error (often the result scope issue)
