@@ -169,6 +169,12 @@ toepassing: Bijvoorbeeld een functie herhalen. Code hergebruiken.
     - node myprogram.js   = 1malig runnen 
     - nodemon myprogram.js = blijft checken naar de aanpassingen.
     - testen (zie testen.md)
+        - npx jest --watch
+        - expect() , .toBe(), toEqual()
+        - test("discription", () => test here.
+        - folder __tests_ of file bla.test.js
+
+        - Arrange, Acts, Assert
 
 ## Functions & Methode
 
@@ -312,5 +318,7 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     - npm init
     - package.json
     - npm install
+    - require
+    - modulo.exports
 
     - packages zijn een verzameling van code van iemand anders. 
