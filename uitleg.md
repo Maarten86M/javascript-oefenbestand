@@ -39,6 +39,7 @@
             -hoeveelheid
         String
             -tekst
+            - template strings: ${tekst komt hier}
         Undefined
             -Oeps, dit is niks
         Null
@@ -311,3 +312,5 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     - npm init
     - package.json
     - npm install
+
+    - packages zijn een verzameling van code van iemand anders. 
