@@ -102,7 +102,7 @@ console.log(newNameTwo);
     >=      kijkt of het linker getal groter of gelijk is dan het rechter getal
     <=      kijkt of het linker getal kleiner of gelijk is dan het rechter getal.
     
-#### Assigment Operators:
+#### Assigment Operators: (toewijzen)
     =  gebruik je bij var x = 4;
 
 #### concatenation:
