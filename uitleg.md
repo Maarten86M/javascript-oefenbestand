@@ -20,6 +20,21 @@
         Boolean
             - true
             - false
+            - falsey (Al je deze waarde verandert naar een boolean krijg je true)
+                * undefined
+                * null
+                * 0 (Getal nul)
+                * Nan
+                * '' (lege string)
+
+            - truthy (Al je deze waarde verandert naar een boolean krijg je false) 
+                * "hello World
+                * -1
+                * 5
+                * " " (string met een spatie).
+                * [] (lege array)
+                * {} (lege object)
+            
         Numbers
             -hoeveelheid
         String
@@ -70,6 +85,10 @@
     Object zijn keys en values. Naam aan de waarde gegeven. 
     Array heeft indexes en values. De volgorde maakt hierbij niet uit. 
 
+
+#### Destructuring 
+    Object destructuring: const { id, job } = user
+    Array destructuring: const [node, dom ] = learingGoald
 
 
 
@@ -138,14 +157,17 @@ for (let i = 0; i < student.length; i++){
     - 
 
 ## loops
+toepassing: Bijvoorbeeld een functie herhalen. Code hergebruiken.
+
     For
     While
     for(…of…)
     Do while
 
 ## Programma uitvoeren
-    node myprogram.js   = 1malig runnen 
-    nodemon myprogram.js = blijft checken naar de aanpassingen.
+    - node myprogram.js   = 1malig runnen 
+    - nodemon myprogram.js = blijft checken naar de aanpassingen.
+    - testen (zie testen.md)
 
 ## Functions & Methode
 
@@ -280,3 +302,12 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     - Global Scope 
     - dont use Var (nog respect voor if for loop scope)
     - reference error (often the result scope issue)
+
+    Omschrijving: zorgt er voor dat je je programma kan opdelen in meerder stukken. Dus je kan meerdere keren dezelfde naam gebruiken. 
+    Omdat ze in een andere scope zitten. { } . 
+    
+## Libaries / packages 
+    - npm
+    - npm init
+    - package.json
+    - npm install

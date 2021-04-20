@@ -67,4 +67,4 @@
     // development dependency
     npm install NAAM-VAN-DE-PACKAGE --save-dev
 
-## Stappenplan. 
+
