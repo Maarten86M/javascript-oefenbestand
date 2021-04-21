@@ -18,8 +18,8 @@
 
     
         Boolean
-            - true
             - false
+            - true
             - falsey (Al je deze waarde verandert naar een boolean krijg je true)
                 * undefined
                 * null
@@ -88,8 +88,8 @@
 
 
 #### Destructuring 
-    Object destructuring: const { id, job } = user
-    Array destructuring: const [node, dom ] = learingGoald
+    - Object destructuring: const { id, job } = user
+    - Array destructuring: const [node, dom ] = learingGoald
 
 
 
@@ -174,7 +174,9 @@ toepassing: Bijvoorbeeld een functie herhalen. Code hergebruiken.
         - test("discription", () => test here.
         - folder __tests_ of file bla.test.js
 
-        - Arrange, Acts, Assert
+        - Arrange = klaarzetten
+        - Acts = iets uitvoeren
+        - Assert = iets beweren , check uitvoeren. 
 
 ## Functions & Methode
 
