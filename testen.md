@@ -39,7 +39,7 @@
     12. runnen npm run test:watch
 
 ### testen van codes:
-    13.Arrange : zet de waardes klaar waar je mee gaat testen
+    13. Arrange : zet de waardes klaar waar je mee gaat testen
     14. Act: Voer de functie uit en geef de gecontroleerde waardes daaraan mee. 
     15. Assert: Maak een bewering over de verwachte uitkomst en vergelijk dit met de daadwerkelijke uitkomst doormiddel van de expect functie. Met daaraan een beweringsfunctie gekoppeld. zoals toEqual.
 
