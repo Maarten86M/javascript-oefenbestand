@@ -26,3 +26,12 @@ input {
 #button-send {
     width: 100%;
 }
+
+#pass-warning, #username-warning {
+    color: red;
+}
+
+#time-id {
+    color: blue;
+}
+

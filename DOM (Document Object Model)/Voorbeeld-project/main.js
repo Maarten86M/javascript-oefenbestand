@@ -47,3 +47,18 @@ function passFieldCheck(e) {
         passWarning.textContent = "wachtwoord is te kort, gebruik minimaal 6 tekens";
     }
 }
+
+// VOORBEELD 3:
+// referentie naar de button.
+const timeButton = document.getElementById('what-time-is-it');
+
+// refentie naar het tijdveld.
+const timeField = document.getElementById('time-id');
+
+// event Listener aanmaken.
+timeButton.addEventListener("click", timeFunction);
+
+// functie aanmaken.
+function timeFunction(e) {
+    alert(timeField.textContent = Date());
+}
