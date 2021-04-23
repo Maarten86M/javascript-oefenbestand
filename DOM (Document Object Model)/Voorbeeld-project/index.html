@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Voorbeeld Project</title>
-<!--    Link naar de styles.ccs-->
+    <!--    Link naar de styles.ccs-->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<button id="names-button"> Klik hier </button>
+<main>
+    <form class="sign-up-container" action="">
+        <h2>Registreren</h2>
+        <label for="username">Gebruikersnaam</label>
+        <input type="text" id="username" name="user-name"/>
+        <p id="username-warning"></p>
+        <label for="password">Wachtwoord:</label>
+        <input type="password" id="password" name="pass-word"/>
+        <p id="pass-warning" ></p>
+        <button id="button-send">Verzenden</button>
+    </form>
+</main>
+
+
+<button id="names-button"> Klik hier</button>
 
 <!--link naar de main.js-->
 <script src="main.js"></script>
