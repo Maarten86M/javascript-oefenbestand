@@ -158,7 +158,7 @@ for (let i = 0; i < student.length; i++){
     - 
 
 ## loops
-toepassing: Bijvoorbeeld een functie herhalen. Code hergebruiken.
+    toepassing: Bijvoorbeeld een functie herhalen. Code hergebruiken.
 
     For
     While
@@ -178,10 +178,12 @@ toepassing: Bijvoorbeeld een functie herhalen. Code hergebruiken.
         - Acts = iets uitvoeren
         - Assert = iets beweren , check uitvoeren. 
 
+    - Browser & Script Tags. 
+
 ## Functions & Methode
 
 ### Functions
-
+    (is een programma in een programma)
     - Why? Herbruikbaar, leesbaar, makkelijk aan te passen.
     - returning values : return a + b of return "hi"
     - aanroepen, functionName()
@@ -305,6 +307,11 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     - .slice()          = maakt een referencieloze kopie van een deel van de array. Dit betekend dat de originele array niet wordt aangepast. Dit kan handig zijn om soms niet de originele array wil aanpassen.
     -. splice()         = voegt toe, vervangt of verwijderd. (1) indexnummer (2)hoeveel items, (3) wat er toegevoegd dient te worden.
 
+    - .find()           =
+    - .filter()         =
+    - .sort()           =
+    - .map()            =
+
 ## Scope
     - isolate parts of your program, be able to reuse names. 
     - local Scope
@@ -325,6 +332,11 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
 
     - packages zijn een verzameling van code van iemand anders. 
 
+## DOM & Events (Browser JavaScript) 
+    - events
+    - Nodes
+    - document.getElementByID()
+    - element.addEventListener
 
 ## Extra begrippen: 
     - callback = Een callback is een functie die wordt aangeroepen door een andere functie, waarbij deze als parameter meegegeven wordt. In deze callback beschrijven we, 

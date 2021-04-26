@@ -1,4 +1,4 @@
-# code lezen 
+# code lezen (strategien) 
 
 ## De krant (pattern recognition style)
     - Scannen
