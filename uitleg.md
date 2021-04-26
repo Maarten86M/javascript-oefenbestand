@@ -324,3 +324,8 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     - modulo.exports
 
     - packages zijn een verzameling van code van iemand anders. 
+
+
+## Extra begrippen: 
+    - callback = Een callback is een functie die wordt aangeroepen door een andere functie, waarbij deze als parameter meegegeven wordt. In deze callback beschrijven we, 
+    net als bij een for-loop, wat voor acties we willen uitvoeren tijdens elke loop
