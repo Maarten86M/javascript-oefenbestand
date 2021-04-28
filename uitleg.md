@@ -338,6 +338,40 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     - document.getElementByID()
     - element.addEventListener
 
+    - Setup (how to start)
+        - HTML File
+        - script tags.
+        -.js bestandje maken.
+        - console.log(checken of het is gekoppeld). 
+
+    - selecting elements in the document.
+        - document.getElementByID
+        - document.getElementById("bigTittle")
+        - store in variable. ;
+
+    - Aanpassen op de pagina (content) (MANIEREN)
+        - 1. Properys een andere value geven (header.innerText = "youve got hacked"
+        - 2. calling methods on elements ( header.remove() )
+        - 3. creating new elements from scratch 
+                1. CREATE ELEMENT = const paragrap = document.createElement("p")/ 
+                2. SET CONTENT (By changing properties) = paragraph.textContent = "bla bla bla"
+                3. STICKING IT ON THE PAGE = document.body.appendChild(paragraph). 
+   
+    - Responding to user interactions. 
+        - selecteren van elementen en ze aanpassen. 
+        - wanneer de gebruiker iets doet. 
+        - event listener -> onclick
+        - event handler - javascript to execute when the event is fired
+                        - functions
+                        - syntax element.addEventListener("click", () => { // hier komt de code of functie }
+
+    - What is the DOM
+        - current status van de webpagina(hoe ziet het er op dat moment uit). 
+        - functies om de webpagina aan te passen. 
+
+
+
+
 ## Extra begrippen: 
     - callback = Een callback is een functie die wordt aangeroepen door een andere functie, waarbij deze als parameter meegegeven wordt. In deze callback beschrijven we, 
     net als bij een for-loop, wat voor acties we willen uitvoeren tijdens elke loop

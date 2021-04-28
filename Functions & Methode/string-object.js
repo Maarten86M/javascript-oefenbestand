@@ -29,4 +29,4 @@ const stringNine = "Oost West Thuis Best ";
 stringNine.replace(" ", "-"); // geeft uitkomst Oost-West
 
 const stringTen = "Oost West thuis best ";
-stringTen.includes("es"); // geeft als uitkomst true.
+stringTen.includes("es"); // geeft als uitkomst true.i
