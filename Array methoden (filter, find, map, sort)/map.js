@@ -421,3 +421,12 @@ const oucomeTV = calculateTVStoSell();
 console.log(oucomeTV);
 
 
+// Opdracht 2a: Gebruik een array-methode om een array te maken met alle tv-type namen.
+
+const tvType = inventory.map((tvName) =>{
+    return tvName.type;
+})
+
+const outcomeTVType = tvType;
+console.log("dit zijn alle tv-type", tvType)
+
