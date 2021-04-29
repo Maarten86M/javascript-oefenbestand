@@ -49,5 +49,16 @@ squareRemove.addEventListener("click", () => {
     squareToRemove.remove();
 })
 
+// reset counter
+function resetCounter() {
+    counterTest = 0;
+    document.getElementById('header-test').innerText = 0;
+}
+// weegeven op de pagina.
+const resetCounterbutton = document.getElementById('reset-counter');
+resetCounterbutton.addEventListener("click", () => {
+    resetCounter();
+});
+
 
 
