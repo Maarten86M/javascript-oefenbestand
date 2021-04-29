@@ -430,3 +430,36 @@ const tvType = inventory.map((tvName) =>{
 const outcomeTVType = tvType;
 console.log("dit zijn alle tv-type", tvType)
 
+
+// Opdracht 3a: Wat is onze doel-opbrengst? Bereken wat de totale opbrengst is, als we alle exemplaren van ieder type zouden verkopen. Geef dit in het blauw weer op de pagina.
+function howMuchtoSell() {
+    const totalTV = inventory.map((television) => {
+        return (television.originalStock - television.sold) * television.price;
+    })
+    let totalTosell = 0;
+    for (let i = 0; i < inventory.length; i++){
+        const tvNumbers = totalTV[i];
+        totalTosell = totalTosell + tvNumbers;
+    }
+    return totalTosell;
+}
+const outcomeTotalToSell = howMuchtoSell();
+console.log("Totaal in euro wat we moeten verkopen", outcomeTotalToSell);
+
+
+
+//     Opdracht 6b: Hoeveel hebben we tot nu toe verdient? Bereken hoeveel we tot nu toe verdient hebben met het aantal verkochte tv's. Geef dit weer in het groen weer op de pagina
+
+function solTotallyTillNow() {
+    const soldTotallyTillNowArray = inventory.map((television) => {
+        return television.sold * television.price;
+    })
+    let soldtilnowCount = 0;
+    for (let i =0; i < inventory.length; i++){
+        const tvEuro = soldTotallyTillNowArray[i];
+        soldtilnowCount = soldtilnowCount + tvEuro;
+    }
+    return soldtilnowCount;
+}
+const outcomeTotallyTillNow = solTotallyTillNow();
+console.log("Wat hebben we tot heden verkocht", outcomeTotallyTillNow);
