@@ -266,7 +266,7 @@ const birthday = {
     - Math.floor(7.82)  = rond een getal naar beneden af. 
     - Math.random()     = genereert een random getal tussen 0 & 1.bijv 0.55364624626
 ### Date object
-zodra je een date instatie hebt gemaakt kunt je de verschillende methode toepassen. 
+zodra je een date hebt gemaakt kunt je de verschillende methode toepassen. 
 const date = new Date 1992, 11, 26). zie date-object.js
 
     - .getTime()        = geeft het aantal milliseconden dat verstreken zijn sinds de epoch. 
