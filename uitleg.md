@@ -307,10 +307,10 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
     - .slice()          = maakt een referencieloze kopie van een deel van de array. Dit betekend dat de originele array niet wordt aangepast. Dit kan handig zijn om soms niet de originele array wil aanpassen.
     -. splice()         = voegt toe, vervangt of verwijderd. (1) indexnummer (2)hoeveel items, (3) wat er toegevoegd dient te worden.
 
-    - .find()           =
-    - .filter()         =
-    - .sort()           =
-    - .map()            =
+    - .find()           = geeft de eerste waarde terug die voldoet aan de conditie die gesteld is.
+    - .filter()         = Filter de gestelde waardes uit een array (dus bijv studenten met een voldoende)
+    - .sort()           = Sorteren gebeurt door het herhaaldelijk vergelijken van twee waardes: de huidige (a) met de vorige (b).
+    - .map()            = zie map.js voor volledige uitleg. 
 
 ## Scope
     - isolate parts of your program, be able to reuse names. 
