@@ -42,3 +42,12 @@ buttonTestThree.addEventListener("click", () => {
     randomBG();
 })
 
+// verwijderen van de vierkant.
+const squareRemove = document.getElementById('square-remove');
+squareRemove.addEventListener("click", () => {
+    const squareToRemove = document.getElementById('square');
+    squareToRemove.remove();
+})
+
+
+
