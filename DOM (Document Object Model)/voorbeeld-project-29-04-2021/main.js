@@ -53,6 +53,7 @@ squareRemove.addEventListener("click", () => {
 function resetCounter() {
     counterTest = 0;
     document.getElementById('header-test').innerText = 0;
+
 }
 // weegeven op de pagina.
 const resetCounterbutton = document.getElementById('reset-counter');
@@ -60,5 +61,9 @@ resetCounterbutton.addEventListener("click", () => {
     resetCounter();
 });
 
-
+// voorbeeld met keyup
+const inputField = document.getElementById('typetext');
+inputField.addEventListener("keyup", () => {
+    const addtextFromField = document.getElementById('text-Input-Field-box').innerHTML = String.fromCharCode(event.keyCode);
+})
 
