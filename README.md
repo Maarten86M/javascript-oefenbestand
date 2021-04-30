@@ -37,6 +37,7 @@
   * voorbeeld project
   * voorbeeld project 29-04-2021
   * voorbeeld project Rein (les)
+  * [Jest Test Project](https://github.com/Maarten86M/jest-test-project)
     
 * [Functions & Methode](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Functions%20%26%20Methode)
   * array object
