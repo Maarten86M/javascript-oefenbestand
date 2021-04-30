@@ -1,12 +1,14 @@
 # Novi Hogeschool
 
+### Mindmap
+  https://whimsical.com/javascript-GfJUDLr1ordnWDQSVdeh3T
 
-### Index
-* Uitleg in MD bestanden
-* Uitleg
+### Index (md)
+* Uitleg (alle info)
 * testen
 * DOM en Events
 * Code Leesstijlen
+* Github cheatsheet
 
 ### Voorbeelden uitgewekt in mappen: 
 * Ajax
