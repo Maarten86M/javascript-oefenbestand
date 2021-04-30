@@ -1,4 +1,5 @@
-# Novi Hogeschool
+# Novi Hogeschool 
+## JavaScript
 
 ### Mindmap
  Mindmap van Rein [link](https://whimsical.com/javascript-GfJUDLr1ordnWDQSVdeh3T)
@@ -12,14 +13,14 @@
 
 ### Voorbeelden uitgewekt in mappen: 
 * [Ajax](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/AJAX)
-  * Data ophalen met Axios
+  * data ophalen met Axios
   * JSON Javascript Object Notation
     
 * [Array Methode](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Array%20methoden%20(filter%2C%20find%2C%20map%2C%20sort))
-  * Filter
-  * Find
-  * Map
-  * Sort
+  * filter
+  * find
+  * map
+  * sort
     
 * [Conditional Statements](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Conditional%20statements)
   * if-else
@@ -54,14 +55,14 @@
   * while
     
 * [Operators](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Operators)
-  * Arethemetic
-  * Assigment
+  * arethemetic
+  * assigment
   * comperision
-  * Concatenation
-  * Logical
+  * concatenation
+  * logical
     
 * [Template String](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Template%20String)
-  * template string
+  * Template string
     
 * [Test (Jest) ](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/test)
   * functie
