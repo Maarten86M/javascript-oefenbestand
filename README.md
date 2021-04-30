@@ -1,14 +1,14 @@
 # Novi Hogeschool
 
 ### Mindmap
-  https://whimsical.com/javascript-GfJUDLr1ordnWDQSVdeh3T
+ Mindmap van Rein [link](https://whimsical.com/javascript-GfJUDLr1ordnWDQSVdeh3T)
 
 ### Index (md)
-* Uitleg (alle info)
-* testen
-* DOM en Events
-* Code Leesstijlen
-* Github cheatsheet
+* Uitleg (alle info) [link](https://github.com/Maarten86M/javascript-oefenbestand/blob/master/uitleg.md)
+* testen [link](https://github.com/Maarten86M/javascript-oefenbestand/blob/master/testen.md)
+* DOM en Events [link](https://github.com/Maarten86M/javascript-oefenbestand/blob/master/DOM-en-events.md)
+* Code Leesstijlen [link](https://github.com/Maarten86M/javascript-oefenbestand/blob/master/code-lees-stylen.md)
+* Github cheatsheet [link](https://github.com/Maarten86M/javascript-oefenbestand/blob/master/Github-CheatSheet.md)
 
 ### Voorbeelden uitgewekt in mappen: 
 * Ajax

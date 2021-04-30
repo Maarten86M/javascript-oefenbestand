@@ -1,4 +1,5 @@
-###Github
+### Github
+
     1. Maak een nieuw project
     2. git init
     3. Maak een .gitignore bestand aan
