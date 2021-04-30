@@ -52,7 +52,7 @@
   * for-loop
   * while
     
-*  [Operators](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Operators)
+* [Operators](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Operators)
   * Arethemetic
   * Assigment
   * comperision
@@ -66,7 +66,7 @@
   * functie
   * index.test
     
-*  [Uitleg in de les (extra) ](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Uitleg%20in%20de%20les)
+* [Uitleg in de les (extra) ](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Uitleg%20in%20de%20les)
   * Array object uitleg (Marlou)
   * for loops uitleg (Marlou)
   * les 7
