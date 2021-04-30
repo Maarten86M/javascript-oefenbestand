@@ -18,18 +18,18 @@
     16. git push origin master (of main)
     17. ga naar de browser (checken)
 
-    Checken wat de remote is / wijzigen remote URL
+### Checken wat de remote is / wijzigen remote URL
     - git remote-v
     - veranderen:  git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
     - git remove-v (checken)
 
-    Clonen huiswerk
+### Clonen huiswerk
     1. VCS in webstorm
     2. git remote remove origin
     3. git remote add origin https://github.com/Maarten86M/css-grid-18-03-2021.git ( eigen link hier)
     4. git push origin master
 
-    feature branche
+### Feature branche
     1. Maak nieuwe branche git checkout -b naam-van-branche feature/uitwerking-maarten)
     2. Maak je huiswerk
     3. git status
@@ -37,18 +37,18 @@
     5. git commit -m "tekst"
     6. git push origin naam-van-branche
 
-    pull request maken. 
+### pull request maken
     1. groene knop github
     2. deel link (uit browserbalk https://github.com/Maarten86M/fake-huiswerk-opdracht/pull/1)
 
-    Feedback ontvangen. 
+### Feedback ontvangen 
     1. pas lokaal dingen aan op feature branch. 
     2. Maak hier een commit van en push opnieuw de hele branche git push origin naam-van-branche
 
-    Mergen. 
+### Mergen 
     1. Klik op de groene merge knop. 
 
-    Lokaal up to date. 
+### Lokaal up to date 
     1. git checkout master 
     2. git pull origin master
     3. git branch -d naam-branch
