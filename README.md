@@ -11,7 +11,7 @@
 * Github cheatsheet [link](https://github.com/Maarten86M/javascript-oefenbestand/blob/master/Github-CheatSheet.md)
 
 ### Voorbeelden uitgewekt in mappen: 
-* Ajax
+* [Ajax](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/AJAX)
   * Data ophalen met Axios
   * JSON Javascript Object Notation
     
