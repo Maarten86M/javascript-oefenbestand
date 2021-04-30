@@ -15,30 +15,30 @@
   * Data ophalen met Axios
   * JSON Javascript Object Notation
     
-* Array Methode
+* [Array Methode](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Array%20methoden%20(filter%2C%20find%2C%20map%2C%20sort))
   * Filter
   * Find
   * Map
   * Sort
     
-* Conditional Statements
+* [Conditional Statements](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Conditional%20statements)
   * if-else
   * switch
     
-* Datatypes
+* [Datatypes](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Datatypes)
   * collections
   * primitives
     
-* Destructuring
+* [Destructuring](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Destructuring)
   * array destructuring
   * object destructuring
     
-* DOM (Document Object Model)
+* [DOM (Document Object Model)](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/DOM%20(Document%20Object%20Model))
   * voorbeeld project
   * voorbeeld project 29-04-2021
   * voorbeeld project Rein (les)
     
-* Functions & Methode 
+* [Functions & Methode](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Functions%20%26%20Methode)
   * array object
   * data object
   * function 
@@ -46,31 +46,31 @@
   * methode
   * string object
     
-* Loops
+* [Loops ](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Loops)
   * do-while
   * for (..of..)
   * for-loop
   * while
     
-* Operators
+*  [Operators](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Operators)
   * Arethemetic
   * Assigment
   * comperision
   * Concatenation
   * Logical
     
-* Template String
+* [Template String](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Template%20String)
   * template string
     
-* Test (Jest)
+* [Test (Jest) ](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/test)
   * functie
   * index.test
     
-* Uitleg in de les (extra)
+*  [Uitleg in de les (extra) ](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Uitleg%20in%20de%20les)
   * Array object uitleg (Marlou)
   * for loops uitleg (Marlou)
   * les 7
   * oefen.js
     
-* Variables
+* [Variables ](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Variables)
   * variables
