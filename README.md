@@ -22,6 +22,9 @@
   * map
   * sort
     
+* [Async](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/async)
+  * async
+
 * [Conditional Statements](https://github.com/Maarten86M/javascript-oefenbestand/tree/master/Conditional%20statements)
   * if-else
   * switch
