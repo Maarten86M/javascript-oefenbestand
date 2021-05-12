@@ -369,7 +369,19 @@ console.log(ducthDate); // uitkomst geeft: zaterdag 26 december
         - current status van de webpagina(hoe ziet het er op dat moment uit). 
         - functies om de webpagina aan te passen. 
 
+## Async
 
+    - Asynchroon
+        - In de tussentijd kan JavaScript verder met iets anders
+        - Je User interface bevriest niet zo snel
+        - Data Fetcen
+        - Database Calls
+        - Iets schrijven naar bestand
+    - Promise
+        - Buzzer (voor de burgerbar)
+        - Belofte van een waarde
+        - Uitwisselen voor de waarde await.
+    - async function + Await
 
 
 ## Extra begrippen: 
